@@ -2,14 +2,17 @@ import os
 import pandas as pd
 import json
 from datetime import datetime
+import uuid
 
 from schema.opportunity import Opportunity
 from schema.client import ClientContact
 from schema.users import Users
 from schema.note import Note, NoteTargetType
+from schema.taxonomy import IndustryNode, FunctionNode
+from schema.opportunity import OpportunityIndustry, OpportunityFunction
 from pipeline.db import SessionLocal
-import uuid
 
+from utils.asc import normalize_text
 from utils.note import build_note_content
 
 
@@ -25,6 +28,16 @@ def run(joborder_path="input/joborder.csv"):
     session = SessionLocal()
     rejected_rows = []
     opportunity_mapping = {}
+    
+    industry_map = {
+        node.name: node.id
+        for node in session.query(IndustryNode).all()
+    }
+
+    function_map = {
+        node.name: node.id
+        for node in session.query(FunctionNode).all()
+    }
 
     df = pd.read_csv(
         joborder_path,
@@ -32,7 +45,7 @@ def run(joborder_path="input/joborder.csv"):
             "招聘數量": "Int64",
             "client_rid": int,
         },
-    )
+    ).map(normalize_text)
 
     df = df.replace({pd.NA: None, float("nan"): None})
 
@@ -163,6 +176,59 @@ def run(joborder_path="input/joborder.csv"):
                 created_at=created_at,
                 updated_at=created_at,
             ))
+            
+        # ==========================
+        # taxonomy mapping
+        # ==========================
+
+        for industry in str(row.get("行業")).split(","):
+            industry = industry.strip()
+
+            if not industry:
+                continue
+
+            industry_id = industry_map.get(industry)
+
+            if not industry_id:
+                rejected = row.to_dict()
+                rejected["reason"] = "industry_not_found"
+                rejected["value"] = industry
+                rejected_rows.append(rejected)
+
+                print(f"⚠️ Industry not found: {industry}")
+                continue
+
+            session.add(
+                OpportunityIndustry(
+                    opportunity_id=opportunity.id,
+                    industry_id=industry_id
+                )
+            )
+
+
+        for function in str(row.get("職能")).split(","):
+            function = function.strip()
+
+            if not function:
+                continue
+
+            function_id = function_map.get(function)
+
+            if not function_id:
+                rejected = row.to_dict()
+                rejected["reason"] = "function_not_found"
+                rejected["value"] = function
+                rejected_rows.append(rejected)
+
+                print(f"⚠️ Function not found: {function}")
+                continue
+
+            session.add(
+                OpportunityFunction(
+                    opportunity_id=opportunity.id,
+                    function_id=function_id
+                )
+            )
 
     session.commit()
     

@@ -12,6 +12,7 @@ from schema.talent import Talent
 from schema.note import Note, NoteTargetType
 
 from utils.note import build_note_content
+from utils.asc import normalize_text
 
 STAGE_FLOW = [
     "added",
@@ -44,7 +45,7 @@ def run(jobsubmission_path="input/jobsubmission.csv"):
     with open("mapping/opportunity_mapping.json", encoding="utf-8") as f:
         opportunity_mapping = json.load(f)
 
-    df = pd.read_csv(jobsubmission_path)
+    df = pd.read_csv(jobsubmission_path).map(normalize_text)
     df = df.replace({pd.NA: None, float("nan"): None})
 
     for _, row in df.iterrows():

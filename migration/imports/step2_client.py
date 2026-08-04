@@ -1,16 +1,23 @@
 import pandas as pd
 from datetime import datetime
-from schema.client import Client
+from schema.taxonomy import IndustryNode
+from schema.client import Client, ClientIndustry
 from schema.users import Users
 from schema.company import CompanyRaw
 from pipeline.db import SessionLocal
 import os
+from utils.asc import normalize_text
 
 def run(client_path="input/client.csv"):
     session = SessionLocal()
     rejected_rows = []
+    
+    industry_map = {
+        node.name: node.id
+        for node in session.query(IndustryNode).all()
+    }
 
-    df = pd.read_csv(client_path)
+    df = pd.read_csv(client_path).map(normalize_text)
     df = df.replace({pd.NA: None, float("nan"): None})
 
     for _, row in df.iterrows():
@@ -54,6 +61,27 @@ def run(client_path="input/client.csv"):
         )
         session.add(client)
         session.flush()  # 先拿到 client.id
+        
+        industry_name = str(row.get("行業") or "").strip()
+
+        if industry_name:
+            industry_id = industry_map.get(industry_name)
+
+            if not industry_id:
+                rejected = row.to_dict()
+                rejected["reason"] = "industry_not_found"
+                rejected["value"] = industry_name
+                rejected_rows.append(rejected)
+
+                print(f"⚠️ Industry not found: {industry_name}")
+
+            else:
+                session.add(
+                    ClientIndustry(
+                        client_id=client.id,
+                        industry_id=industry_id
+                    )
+                )
 
         # 匯入行業 (client_industry)
         # industry_id = row.get("行業")

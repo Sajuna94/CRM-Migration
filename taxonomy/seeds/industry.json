@@ -1,0 +1,702 @@
+[
+  {
+    "title": "醫美 Aesthetic"
+  },
+  {
+    "title": "醫藥/大健康 Healthcare",
+    "children": [
+      {
+        "title": "新藥& 生物科技 Biotech"
+      },
+      {
+        "title": "製藥",
+        "children": [
+          {
+            "title": "西藥"
+          },
+          {
+            "title": "中成藥"
+          },
+          {
+            "title": "原料藥"
+          }
+        ]
+      },
+      {
+        "title": "疫苗"
+      },
+      {
+        "title": "動物保健 & 寵物"
+      },
+      {
+        "title": "醫藥服務外包",
+        "children": [
+          {
+            "title": "CRO"
+          },
+          {
+            "title": "CDMO"
+          }
+        ]
+      },
+      {
+        "title": "醫藥零售"
+      },
+      {
+        "title": "醫療機構"
+      },
+      {
+        "title": "美容/保健"
+      },
+      {
+        "title": "養老服務"
+      },
+      {
+        "title": "健康服務"
+      }
+    ]
+  },
+  {
+    "title": "醫療器械 Medical Device",
+    "children": [
+      {
+        "title": "生命科學 Life Sciences"
+      },
+      {
+        "title": "體外診斷 IVD"
+      }
+    ]
+  },
+  {
+    "title": "消費品 Consumer Goods",
+    "children": [
+      {
+        "title": "服飾/鞋 Clothes & Shoes"
+      },
+      {
+        "title": "快速消費品 Fast Moving Consumer Goods",
+        "children": [
+          {
+            "title": "食品"
+          },
+          {
+            "title": "非食品"
+          },
+          {
+            "title": "香水化妝品"
+          },
+          {
+            "title": "煙酒"
+          }
+        ]
+      },
+      {
+        "title": "奢侈品 Luxury Goods",
+        "children": [
+          {
+            "title": "腕錶珠寶"
+          },
+          {
+            "title": "高級時裝"
+          },
+          {
+            "title": "私人飛機/游艇"
+          },
+          {
+            "title": "豪宅"
+          }
+        ]
+      },
+      {
+        "title": "耐用消費品 Consumer Durable",
+        "children": [
+          {
+            "title": "家電"
+          },
+          {
+            "title": "厨具"
+          },
+          {
+            "title": "家具"
+          }
+        ]
+      },
+      {
+        "title": "消費性電子 Consumer Electronic",
+        "children": [
+          {
+            "title": "手機與週邊"
+          },
+          {
+            "title": "電腦與週邊"
+          },
+          {
+            "title": "穿戴式裝置"
+          },
+          {
+            "title": "無人機"
+          },
+          {
+            "title": "機器人"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "零售/批發 Retail & Wholesale",
+    "children": [
+      {
+        "title": "購物中心 Shopping Mall"
+      },
+      {
+        "title": "百貨/專賣店 Department Stores"
+      },
+      {
+        "title": "超市/便利店 Supermarkets / Convenient Stores"
+      },
+      {
+        "title": "餐飲與休閒 Restaurant & Leisure"
+      }
+    ]
+  },
+  {
+    "title": "資訊科技 Information Technology",
+    "children": [
+      {
+        "title": "軟體系統整合 SI"
+      },
+      {
+        "title": "人工智慧 Artificial intelligence"
+      },
+      {
+        "title": "雲端運算 Cloud Computing"
+      },
+      {
+        "title": "大數據 Big Data"
+      },
+      {
+        "title": "基礎建設服務 Infrastructure as a Service"
+      },
+      {
+        "title": "物聯網 IOT"
+      },
+      {
+        "title": "區塊鏈 Blockchain"
+      },
+      {
+        "title": "資訊安全 Information Security"
+      },
+      {
+        "title": "電子商務 e-commerce"
+      },
+      {
+        "title": "娛樂/遊戲 Gaming"
+      },
+      {
+        "title": "社群/新媒體 Social Media"
+      },
+      {
+        "title": "搜尋引擎 Search Engine"
+      },
+      {
+        "title": "金融科技 Fintech"
+      },
+      {
+        "title": "其他軟體服務 SAAS"
+      }
+    ]
+  },
+  {
+    "title": "晶片/半導體 Semiconductor",
+    "children": [
+      {
+        "title": "半導體設備"
+      },
+      {
+        "title": "半導體材料"
+      },
+      {
+        "title": "晶片設計"
+      },
+      {
+        "title": "晶圓製造"
+      },
+      {
+        "title": "封裝測試"
+      },
+      {
+        "title": "EDA工具"
+      },
+      {
+        "title": "IP授權"
+      }
+    ]
+  },
+  {
+    "title": "電子/通訊",
+    "children": [
+      {
+        "title": "電子設備"
+      },
+      {
+        "title": "通訊設備"
+      },
+      {
+        "title": "電子元件"
+      },
+      {
+        "title": "安防"
+      },
+      {
+        "title": "營運商/增值服務"
+      }
+    ]
+  },
+  {
+    "title": "金融 Financial Service",
+    "children": [
+      {
+        "title": "銀行",
+        "children": [
+          {
+            "title": "公股銀行"
+          },
+          {
+            "title": "私人銀行"
+          }
+        ]
+      },
+      {
+        "title": "消費金融"
+      },
+      {
+        "title": "保險"
+      },
+      {
+        "title": "私募/投資",
+        "children": [
+          {
+            "title": "PE/VC"
+          },
+          {
+            "title": "FA"
+          },
+          {
+            "title": "企業戰投"
+          }
+        ]
+      },
+      {
+        "title": "資管",
+        "children": [
+          {
+            "title": "公募基金"
+          },
+          {
+            "title": "信託"
+          },
+          {
+            "title": "券商資管"
+          },
+          {
+            "title": "保險資管"
+          }
+        ]
+      },
+      {
+        "title": "證券"
+      },
+      {
+        "title": "期貨"
+      },
+      {
+        "title": "租賃"
+      }
+    ]
+  },
+  {
+    "title": "工業/製造 Industrial Manufacturing",
+    "children": [
+      {
+        "title": "智慧製造",
+        "children": [
+          {
+            "title": "CNC工具機"
+          },
+          {
+            "title": "3D列印裝備"
+          },
+          {
+            "title": "工業機器人"
+          }
+        ]
+      },
+      {
+        "title": "工業互聯網"
+      },
+      {
+        "title": "機械設備"
+      },
+      {
+        "title": "儀器儀表"
+      },
+      {
+        "title": "特種設備"
+      },
+      {
+        "title": "零件"
+      },
+      {
+        "title": "軌道運輸/船舶"
+      },
+      {
+        "title": "航空/航太設備"
+      },
+      {
+        "title": "非機動車"
+      },
+      {
+        "title": "造紙/包裝/印刷"
+      },
+      {
+        "title": "汽車 Automotive",
+        "children": [
+          {
+            "title": "智慧電動汽車",
+            "children": [
+              {
+                "title": "三電"
+              },
+              {
+                "title": "智慧座艙"
+              },
+              {
+                "title": "自動駕駛"
+              },
+              {
+                "title": "車聯網"
+              },
+              {
+                "title": "充電/換電"
+              }
+            ]
+          },
+          {
+            "title": "汽車整車"
+          },
+          {
+            "title": "汽車零件",
+            "children": [
+              {
+                "title": "底盤"
+              },
+              {
+                "title": "引擎"
+              },
+              {
+                "title": "車身"
+              },
+              {
+                "title": "控制系統"
+              },
+              {
+                "title": "空調"
+              },
+              {
+                "title": "座椅"
+              },
+              {
+                "title": "車燈"
+              }
+            ]
+          },
+          {
+            "title": "汽車工程設計"
+          },
+          {
+            "title": "汽車零售"
+          },
+          {
+            "title": "汽車後市場"
+          }
+        ]
+      },
+      {
+        "title": "化工 Chemical Engineering"
+      }
+    ]
+  },
+  {
+    "title": "新能源/環保 Energy",
+    "children": [
+      {
+        "title": "新能源",
+        "children": [
+          {
+            "title": "太陽能/光電"
+          },
+          {
+            "title": "風能"
+          },
+          {
+            "title": "生質能"
+          },
+          {
+            "title": "氫能"
+          },
+          {
+            "title": "水能"
+          },
+          {
+            "title": "核能"
+          }
+        ]
+      },
+      {
+        "title": "不可再生能源",
+        "children": [
+          {
+            "title": "石油/天然氣"
+          },
+          {
+            "title": "煤炭"
+          }
+        ]
+      },
+      {
+        "title": "儲能"
+      },
+      {
+        "title": "電氣/電力"
+      },
+      {
+        "title": "環保"
+      }
+    ]
+  },
+  {
+    "title": "原料",
+    "children": [
+      {
+        "title": "新材料",
+        "children": [
+          {
+            "title": "金屬新材料"
+          },
+          {
+            "title": "非金屬新材料"
+          },
+          {
+            "title": "化工新材料"
+          },
+          {
+            "title": "複合新材料"
+          },
+          {
+            "title": "前沿新材料"
+          }
+        ]
+      },
+      {
+        "title": "礦產開採"
+      },
+      {
+        "title": "金屬材料",
+        "children": [
+          {
+            "title": "鋼鐵"
+          },
+          {
+            "title": "貴金屬"
+          },
+          {
+            "title": "有色金屬"
+          },
+          {
+            "title": "能源金屬"
+          }
+        ]
+      },
+      {
+        "title": "非金屬材料",
+        "children": [
+          {
+            "title": "稀土"
+          },
+          {
+            "title": "玻璃"
+          },
+          {
+            "title": "石墨"
+          },
+          {
+            "title": "木材"
+          },
+          {
+            "title": "陶瓷"
+          },
+          {
+            "title": "鑽石"
+          },
+          {
+            "title": "液晶材料"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "房地產",
+    "children": [
+      {
+        "title": "商業地產"
+      },
+      {
+        "title": "房地產開發"
+      },
+      {
+        "title": "建築設計"
+      },
+      {
+        "title": "建築工程"
+      },
+      {
+        "title": "物業管理"
+      },
+      {
+        "title": "房地產服務"
+      },
+      {
+        "title": "建築材料"
+      }
+    ]
+  },
+  {
+    "title": "運輸/貿易",
+    "children": [
+      {
+        "title": "快遞"
+      },
+      {
+        "title": "貿易/進出口"
+      },
+      {
+        "title": "交通/運輸"
+      },
+      {
+        "title": "物流/倉儲"
+      }
+    ]
+  },
+  {
+    "title": "專業服務 Professional Service",
+    "children": [
+      {
+        "title": "人力資源服務",
+        "children": [
+          {
+            "title": "獵頭"
+          },
+          {
+            "title": "RPO 外包"
+          }
+        ]
+      },
+      {
+        "title": "公關/行銷/廣告"
+      },
+      {
+        "title": "會計師事務所"
+      },
+      {
+        "title": "律師事務所"
+      },
+      {
+        "title": "管理諮詢"
+      },
+      {
+        "title": "市場研究"
+      },
+      {
+        "title": "信用評級"
+      },
+      {
+        "title": "專業檢測"
+      }
+    ]
+  },
+  {
+    "title": "文娛 Entertainment",
+    "children": [
+      {
+        "title": "飯店/民宿"
+      },
+      {
+        "title": "旅遊"
+      },
+      {
+        "title": "傳媒"
+      },
+      {
+        "title": "影視/娛樂"
+      },
+      {
+        "title": "出版"
+      },
+      {
+        "title": "室內娛樂"
+      }
+    ]
+  },
+  {
+    "title": "教育/培訓 Education",
+    "children": [
+      {
+        "title": "網路教育"
+      },
+      {
+        "title": "國內院校"
+      },
+      {
+        "title": "國際學校"
+      },
+      {
+        "title": "學術/科學研究"
+      }
+    ]
+  },
+  {
+    "title": "政府/公共事業",
+    "children": [
+      {
+        "title": "政府部門"
+      },
+      {
+        "title": "公共事業",
+        "children": [
+          {
+            "title": "電力"
+          },
+          {
+            "title": "瓦斯"
+          },
+          {
+            "title": "水務"
+          },
+          {
+            "title": "市政環衛"
+          }
+        ]
+      },
+      {
+        "title": "非營利組織",
+        "children": [
+          {
+            "title": "基金會"
+          }
+        ]
+      }
+    ]
+  }
+]

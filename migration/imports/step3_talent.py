@@ -1,7 +1,8 @@
 import pandas as pd
 import uuid
 from datetime import datetime
-from schema.talent import Talent, TalentNote
+from schema.talent import Talent, TalentNote, TalentIndustry, TalentFunction
+from schema.taxonomy import IndustryNode, FunctionNode
 from schema.users import Users
 from schema.client import Client, ClientContact
 from schema.company import CompanyRaw
@@ -10,10 +11,21 @@ import os
 import json
 
 from utils.note import build_note_content
+from utils.asc import normalize_text
 
 def run(candidate_path="input/candidate.csv"):
     session = SessionLocal()
     rejected_rows = []
+    
+    industry_map = {
+        node.name: node.id
+        for node in session.query(IndustryNode).all()
+    }
+
+    function_map = {
+        node.name: node.id
+        for node in session.query(FunctionNode).all()
+    }
 
     df = pd.read_csv(
         candidate_path, 
@@ -27,7 +39,7 @@ def run(candidate_path="input/candidate.csv"):
             "年薪": lambda x: int(float(x)) if x else None,
             "company_private": lambda x: x.strip().lower() == "true" if x else None,
         },
-    )
+    ).map(normalize_text)
     df = df.replace({pd.NA: None, float("nan"): None})
     
     eid_map = {}  # EID → UUID 對應表
@@ -118,8 +130,6 @@ def run(candidate_path="input/candidate.csv"):
         
         if note_content:
             contact_time = datetime.strptime(row["最近聯繫"], "%Y-%m-%d %H:%M") if row.get("添加日期") else None
-            
-            
             note = TalentNote(
                 talent_id=talent_id,
                 created_by_id=note_created_user.id,
@@ -148,6 +158,59 @@ def run(candidate_path="input/candidate.csv"):
                 updated_at=talent_created_at
             )
             session.add(note)
+            
+        # ==========================
+        # taxonomy mapping
+        # ==========================
+
+        for industry in str(row.get("行業") or "").split(","):
+            industry = industry.strip()
+
+            if not industry:
+                continue
+
+            industry_id = industry_map.get(industry)
+
+            if not industry_id:
+                rejected = row.to_dict()
+                rejected["reason"] = "industry_not_found"
+                rejected["value"] = industry
+                rejected_rows.append(rejected)
+
+                print(f"⚠️ Industry not found: {industry}")
+                continue
+
+            session.add(
+                TalentIndustry(
+                    talent_id=talent_id,
+                    industry_id=industry_id
+                )
+            )
+
+
+        for function in str(row.get("職能") or "").split(","):
+            function = function.strip()
+
+            if not function:
+                continue
+
+            function_id = function_map.get(function)
+
+            if not function_id:
+                rejected = row.to_dict()
+                rejected["reason"] = "function_not_found"
+                rejected["value"] = function
+                rejected_rows.append(rejected)
+
+                print(f"⚠️ Function not found: {function}")
+                continue
+
+            session.add(
+                TalentFunction(
+                    talent_id=talent_id,
+                    function_id=function_id
+                )
+            )
             
         
             

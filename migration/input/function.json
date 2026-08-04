@@ -1,0 +1,788 @@
+[
+  {
+    "title": "高級管理 C-Level",
+    "children": [
+      {
+        "title": "總經理 General Manager / Managing Director"
+      },
+      {
+        "title": "首席執行官 CEO"
+      },
+      {
+        "title": "首席技術官 CTO/CIO"
+      },
+      {
+        "title": "首席運營官 COO"
+      },
+      {
+        "title": "首席財務官 CFO"
+      },
+      {
+        "title": "副總裁 Vice President"
+      }
+    ]
+  },
+  {
+    "title": "人事/行政 HR & Administration",
+    "children": [
+      {
+        "title": "人力資源 Human Resources",
+        "children": [
+          {
+            "title": "人力資源總監 HR Director"
+          },
+          {
+            "title": "人力資源經理 HR Manager"
+          },
+          {
+            "title": "人力業務夥伴 HR Business Partner"
+          },
+          {
+            "title": "招聘 Talent Acquisition & Recruitment"
+          },
+          {
+            "title": "薪酬與福利 Compensation & Benefit"
+          },
+          {
+            "title": "培訓 Training, Learning & Development"
+          },
+          {
+            "title": "組織發展 Organization Development"
+          },
+          {
+            "title": "員工關係 Employee Relations"
+          },
+          {
+            "title": "績效"
+          }
+        ]
+      },
+      {
+        "title": "行政"
+      },
+      {
+        "title": "秘書"
+      }
+    ]
+  },
+  {
+    "title": "財務/金融 Accounting & Finance",
+    "children": [
+      {
+        "title": "財務/會計 Finance Accounting",
+        "children": [
+          {
+            "title": "財務 Finance"
+          },
+          {
+            "title": "會計 Accounting"
+          },
+          {
+            "title": "總帳 GL"
+          },
+          {
+            "title": "分析 Planning & Analysis"
+          },
+          {
+            "title": "審計 Audit"
+          },
+          {
+            "title": "稅務 Tax"
+          },
+          {
+            "title": "資金 Treasury"
+          },
+          {
+            "title": "信用 Credit"
+          },
+          {
+            "title": "控制 Internal Control"
+          }
+        ]
+      },
+      {
+        "title": "投融資 Investment",
+        "children": [
+          {
+            "title": "投資"
+          },
+          {
+            "title": "融資"
+          },
+          {
+            "title": "併購 Merge & Acquisition (M&A)"
+          },
+          {
+            "title": "分析師"
+          },
+          {
+            "title": "行業研究"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "法務/法遵 Legal & Compliance",
+    "children": [
+      {
+        "title": "Legal 法務"
+      },
+      {
+        "title": "Compliance 法遵"
+      },
+      {
+        "title": "Intellectual Property 智慧財產"
+      }
+    ]
+  },
+  {
+    "title": "銷售 Sales",
+    "children": [
+      {
+        "title": "銷售 Sales"
+      },
+      {
+        "title": "大客戶銷售 Key Account"
+      },
+      {
+        "title": "業務開發 Business Development"
+      },
+      {
+        "title": "客戶服務 Customer Service"
+      },
+      {
+        "title": "國外業務 Oversea Business"
+      },
+      {
+        "title": "銷售管理 Sales Management"
+      },
+      {
+        "title": "餐飲/門市 Restaurants & Stores"
+      },
+      {
+        "title": "展店 Retail Expansion"
+      }
+    ]
+  },
+  {
+    "title": "行銷 Product & Marketing",
+    "children": [
+      {
+        "title": "整合行銷 Integrated Marketing"
+      },
+      {
+        "title": "產品管理 Product Management"
+      },
+      {
+        "title": "通路行銷 Trade Marketing / Retail Marketing"
+      },
+      {
+        "title": "廣告/媒體 Media & Advertising"
+      },
+      {
+        "title": "數位行銷 Digital Marketing"
+      },
+      {
+        "title": "行銷與傳訊 Marketing Communications"
+      },
+      {
+        "title": "客戶大數據 CRM"
+      },
+      {
+        "title": "KOL/藝人 Celebrity"
+      },
+      {
+        "title": "活動/策展 Events & Exhibition"
+      }
+    ]
+  },
+  {
+    "title": "供應鏈管理 Procurement & Supply Chain",
+    "children": [
+      {
+        "title": "物流 Logistic"
+      },
+      {
+        "title": "倉儲 Inventory"
+      },
+      {
+        "title": "運輸 Transportation"
+      },
+      {
+        "title": "採購 Merchandiser/Buyer"
+      },
+      {
+        "title": "供應商開發 Sourcing"
+      },
+      {
+        "title": "外貿"
+      },
+      {
+        "title": "跟單"
+      }
+    ]
+  },
+  {
+    "title": "資訊科技 Information Technology",
+    "children": [
+      {
+        "title": "IT建設與管理",
+        "children": [
+          {
+            "title": "MIS Engineer"
+          },
+          {
+            "title": "Network Engineer"
+          },
+          {
+            "title": "System Engineer"
+          },
+          {
+            "title": "DevOps / SRE Engineer"
+          },
+          {
+            "title": "Operation Engineer"
+          },
+          {
+            "title": "Database Administrator",
+            "children": [
+              {
+                "title": "Oracle"
+              },
+              {
+                "title": "MySQL"
+              },
+              {
+                "title": "PostgreSQL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "軟體研發",
+        "children": [
+          {
+            "title": "前端",
+            "children": [
+              {
+                "title": "React.js"
+              },
+              {
+                "title": "Vue.js"
+              },
+              {
+                "title": "Angular.js"
+              }
+            ]
+          },
+          {
+            "title": "後端",
+            "children": [
+              {
+                "title": "Java"
+              },
+              {
+                "title": "Golang"
+              },
+              {
+                "title": "PHP"
+              },
+              {
+                "title": "C++"
+              },
+              {
+                "title": ".Net"
+              },
+              {
+                "title": "Scala"
+              },
+              {
+                "title": "Ruby"
+              },
+              {
+                "title": "Python"
+              }
+            ]
+          },
+          {
+            "title": "APP",
+            "children": [
+              {
+                "title": "Flutter"
+              },
+              {
+                "title": "Android"
+              },
+              {
+                "title": "IOS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Big Data",
+        "children": [
+          {
+            "title": "Data Engineer",
+            "children": [
+              {
+                "title": "Python"
+              },
+              {
+                "title": "SQL"
+              },
+              {
+                "title": "Scala"
+              },
+              {
+                "title": "Java"
+              },
+              {
+                "title": "ETL/ELT"
+              },
+              {
+                "title": "Cloud"
+              },
+              {
+                "title": "Data Warehouse"
+              },
+              {
+                "title": "Schema migration"
+              }
+            ]
+          },
+          {
+            "title": "Data Analyst",
+            "children": [
+              {
+                "title": "SQL"
+              },
+              {
+                "title": "R"
+              },
+              {
+                "title": "Python"
+              },
+              {
+                "title": "Excel"
+              },
+              {
+                "title": "Tableau"
+              },
+              {
+                "title": "Power BI"
+              }
+            ]
+          },
+          {
+            "title": "Machine Learning",
+            "children": [
+              {
+                "title": "SQL"
+              },
+              {
+                "title": "Python"
+              },
+              {
+                "title": "PyTorch"
+              },
+              {
+                "title": "TensorFlow"
+              },
+              {
+                "title": "Scikit-Learn"
+              },
+              {
+                "title": "XGBoost"
+              }
+            ]
+          },
+          {
+            "title": "AI Application Engineer",
+            "children": [
+              {
+                "title": "SQL"
+              },
+              {
+                "title": "Python"
+              },
+              {
+                "title": "LLM"
+              },
+              {
+                "title": "AI Agents"
+              },
+              {
+                "title": "RAG"
+              },
+              {
+                "title": "Prompt Engineering"
+              },
+              {
+                "title": "Flask"
+              },
+              {
+                "title": "FastAPI"
+              }
+            ]
+          },
+          {
+            "title": "MLOps",
+            "children": [
+              {
+                "title": "Python"
+              },
+              {
+                "title": "CI/CD"
+              },
+              {
+                "title": "Git"
+              },
+              {
+                "title": "Docker"
+              },
+              {
+                "title": "Kubernetes"
+              },
+              {
+                "title": "AWS"
+              },
+              {
+                "title": "GCP"
+              },
+              {
+                "title": "Azure"
+              },
+              {
+                "title": "MLflow"
+              },
+              {
+                "title": "Weights & Biases"
+              },
+              {
+                "title": "Kubeflow"
+              },
+              {
+                "title": "Apache Airflow"
+              },
+              {
+                "title": "Model Drift"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "韌體研發"
+      },
+      {
+        "title": "硬體研發",
+        "children": [
+          {
+            "title": "Application Engineer"
+          },
+          {
+            "title": "Application Engineering Manager"
+          },
+          {
+            "title": "Application Engineering Director"
+          }
+        ]
+      },
+      {
+        "title": "產品",
+        "children": [
+          {
+            "title": "Product Manager"
+          },
+          {
+            "title": "Project Manager"
+          }
+        ]
+      },
+      {
+        "title": "技術支援",
+        "children": [
+          {
+            "title": "Technical Support Engineer"
+          },
+          {
+            "title": "Field Application Engineer, FAE"
+          },
+          {
+            "title": "IT Support Engineer"
+          }
+        ]
+      },
+      {
+        "title": "資訊安全",
+        "children": [
+          {
+            "title": "Security Engineer"
+          },
+          {
+            "title": "Security Analyst"
+          },
+          {
+            "title": "CISO / CSO"
+          }
+        ]
+      },
+      {
+        "title": "ERP"
+      },
+      {
+        "title": "技術主管",
+        "children": [
+          {
+            "title": "Head of IT"
+          },
+          {
+            "title": "CIO"
+          },
+          {
+            "title": "CTO"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "永續 ESG"
+  },
+  {
+    "title": "運營 Operations"
+  },
+  {
+    "title": "項目管理 Project Management"
+  },
+  {
+    "title": "公共關係 Public Relations",
+    "children": [
+      {
+        "title": "媒體關係 Media Relations"
+      },
+      {
+        "title": "政府關係 Government Relations"
+      },
+      {
+        "title": "投資者關係 Investor Relations"
+      }
+    ]
+  },
+  {
+    "title": "設計 Creative Design",
+    "children": [
+      {
+        "title": "平面設計"
+      },
+      {
+        "title": "建築設計"
+      },
+      {
+        "title": "景觀設計"
+      },
+      {
+        "title": "室內設計"
+      },
+      {
+        "title": "結構設計"
+      },
+      {
+        "title": "機電設計"
+      },
+      {
+        "title": "藝術設計"
+      },
+      {
+        "title": "網頁設計",
+        "children": [
+          {
+            "title": "UI"
+          },
+          {
+            "title": "UE"
+          },
+          {
+            "title": "UX"
+          },
+          {
+            "title": "視頻/音效"
+          }
+        ]
+      },
+      {
+        "title": "服飾設計 Fashion & Accessories Design"
+      },
+      {
+        "title": "內容設計 Content Design"
+      },
+      {
+        "title": "視覺陳列 Visual Merchandise"
+      }
+    ]
+  },
+  {
+    "title": "研發 Reasearch & Development",
+    "children": [
+      {
+        "title": "製藥",
+        "children": [
+          {
+            "title": "臨床研究 CRO"
+          },
+          {
+            "title": "法規 Regulatory Affairs"
+          },
+          {
+            "title": "生產 Production"
+          }
+        ]
+      },
+      {
+        "title": "醫療器械",
+        "children": [
+          {
+            "title": "醫療器械研發 R&D"
+          },
+          {
+            "title": "醫療器械法規 Regulatory Affairs"
+          },
+          {
+            "title": "醫療器械生產"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "工程/機械 Engineering & Machinery",
+    "children": [
+      {
+        "title": "工程"
+      },
+      {
+        "title": "機械"
+      },
+      {
+        "title": "模具"
+      },
+      {
+        "title": "工業"
+      },
+      {
+        "title": "結構"
+      },
+      {
+        "title": "機電"
+      },
+      {
+        "title": "鑄造"
+      },
+      {
+        "title": "註塑"
+      },
+      {
+        "title": "CNC"
+      },
+      {
+        "title": "衝壓"
+      },
+      {
+        "title": "夾具"
+      },
+      {
+        "title": "鍋爐"
+      }
+    ]
+  },
+  {
+    "title": "生產製造 Production & Manufacturing",
+    "children": [
+      {
+        "title": "工廠經理/廠長"
+      },
+      {
+        "title": "總工程師"
+      },
+      {
+        "title": "項目管理"
+      },
+      {
+        "title": "工程/設備"
+      },
+      {
+        "title": "工業工程師"
+      },
+      {
+        "title": "工藝工程師"
+      },
+      {
+        "title": "生產計劃/物料"
+      },
+      {
+        "title": "化驗/檢驗"
+      },
+      {
+        "title": "產品"
+      },
+      {
+        "title": "製造"
+      },
+      {
+        "title": "生產"
+      },
+      {
+        "title": "包裝"
+      },
+      {
+        "title": "維修",
+        "children": [
+          {
+            "title": "質量/安防",
+            "children": [
+              {
+                "title": "質量"
+              },
+              {
+                "title": "測試"
+              },
+              {
+                "title": "EHS"
+              },
+              {
+                "title": "安防"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "咨詢/教育/翻譯",
+    "children": [
+      {
+        "title": "咨詢/顧問"
+      },
+      {
+        "title": "教育"
+      },
+      {
+        "title": "培訓"
+      },
+      {
+        "title": "翻譯"
+      }
+    ]
+  },
+  {
+    "title": "潛在顧問 PRC"
+  },
+  {
+    "title": "其他"
+  }
+]

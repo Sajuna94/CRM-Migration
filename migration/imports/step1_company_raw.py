@@ -2,13 +2,14 @@ import pandas as pd
 from schema.company import CompanyRaw
 from schema.users import Users
 from pipeline.db import SessionLocal
+from utils.asc import normalize_text
 
 def run(candidate_path="input/candidate.csv", client_path="input/client.csv"):
     session = SessionLocal()
 
     # 讀取 candidate / client
-    df_candidate = pd.read_csv(candidate_path)
-    df_client = pd.read_csv(client_path)
+    df_candidate = pd.read_csv(candidate_path).map(normalize_text)
+    df_client = pd.read_csv(client_path).map(normalize_text)
 
     # 建立集合避免重複公司
     seen_companies = set()

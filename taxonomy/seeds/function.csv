@@ -1,0 +1,238 @@
+Level 1,Level 2,Level 3,Level 4
+高級管理 C-Level,,,
+,總經理 General Manager / Managing Director,,
+,首席執行官 CEO,,
+,首席技術官 CTO/CIO,,
+,首席運營官 COO,,
+,首席財務官 CFO,,
+,副總裁 Vice President,,
+人事/行政 HR & Administration,,,
+,人力資源 Human Resources,,
+,,人力資源總監 HR Director,
+,,人力資源經理 HR Manager,
+,,人力業務夥伴 HR Business Partner,
+,,招聘 Talent Acquisition & Recruitment,
+,,薪酬與福利 Compensation & Benefit,
+,,"培訓 Training, Learning & Development",
+,,組織發展 Organization Development,
+,,員工關係 Employee Relations,
+,,績效,
+,行政,,
+,秘書,,
+財務/金融 Accounting & Finance,,,
+,財務/會計 Finance Accounting,,
+,,財務 Finance,
+,,會計 Accounting,
+,,總帳 GL,
+,,分析 Planning & Analysis,
+,,審計 Audit,
+,,稅務 Tax,
+,,資金 Treasury,
+,,信用 Credit,
+,,控制 Internal Control,
+,投融資 Investment,,
+,,投資,
+,,融資,
+,,併購 Merge & Acquisition (M&A),
+,,分析師,
+,,行業研究,
+法務/法遵 Legal & Compliance,,,
+,Legal 法務,,
+,,,
+,Compliance 法遵,,
+,Intellectual Property 智慧財產,,
+銷售 Sales,,,
+,銷售 Sales  ,,
+,大客戶銷售 Key Account  ,,
+,業務開發 Business Development,,
+,客戶服務 Customer Service,,
+,國外業務 Oversea Business,,
+,銷售管理 Sales Management,,
+,餐飲/門市 Restaurants & Stores,,
+,展店 Retail Expansion,,
+行銷 Product & Marketing,,,
+,整合行銷 Integrated Marketing,,
+,產品管理 Product Management,,
+,通路行銷 Trade Marketing / Retail Marketing,,
+,廣告/媒體 Media & Advertising,,
+,數位行銷 Digital Marketing,,
+,行銷與傳訊 Marketing Communications,,
+,客戶大數據 CRM,,
+,KOL/藝人 Celebrity,,
+,活動/策展 Events & Exhibition,,
+供應鏈管理 Procurement & Supply Chain,,,
+,物流 Logistic,,
+,倉儲 Inventory,,
+,運輸 Transportation,,
+,採購 Merchandiser/Buyer,,
+,供應商開發 Sourcing,,
+,外貿,,
+,跟單,,
+資訊科技 Information Technology,,,
+,IT建設與管理,,
+,,MIS Engineer,
+,,Network Engineer,
+,,System Engineer,
+,,DevOps / SRE Engineer,
+,,Operation Engineer,
+,,Database Administrator,
+,,,Oracle
+,,,MySQL
+,,,PostgreSQL
+,軟體研發,,
+,,前端,
+,,,React.js
+,,,Vue.js
+,,,Angular.js
+,,後端,
+,,,Java
+,,,Golang
+,,,PHP
+,,,C++
+,,,.Net
+,,,Scala
+,,,Ruby
+,,,Python
+,,APP,
+,,,Flutter 
+,,,Android
+,,,IOS
+,Big Data,,
+,,Data Engineer,
+,,,Python 
+,,,SQL
+,,,Scala
+,,,Java
+,,,ETL/ELT
+,,,Cloud
+,,,Data Warehouse
+,,,Schema migration
+,,Data Analyst,
+,,,SQL 
+,,,R
+,,,Python 
+,,,Excel
+,,,Tableau
+,,,Power BI
+,,Machine Learning,
+,,,SQL
+,,,Python
+,,,PyTorch
+,,,TensorFlow
+,,,Scikit-Learn
+,,,XGBoost
+,,AI Application Engineer,
+,,,SQL
+,,,Python
+,,,LLM
+,,,AI Agents
+,,,RAG
+,,,Prompt Engineering
+,,,Flask
+,,,FastAPI
+,,MLOps,
+,,,Python 
+,,,CI/CD
+,,,Git
+,,,Docker
+,,,Kubernetes
+,,,AWS
+,,,GCP
+,,,Azure
+,,,MLflow
+,,,Weights & Biases
+,,,Kubeflow
+,,,Apache Airflow
+,,,Model Drift
+,韌體研發,,
+,硬體研發,,
+,,Application Engineer,
+,,Application Engineering Manager,
+,,Application Engineering Director,
+,產品,,
+,,Product Manager,
+,,Project Manager,
+,技術支援,,
+,,Technical Support Engineer,
+,,"Field Application Engineer, FAE",
+,,IT Support Engineer,
+,資訊安全,,
+,,Security Engineer,
+,,Security Analyst,
+,,CISO / CSO,
+,ERP,,
+,技術主管,,
+,,Head of IT,
+,,CIO,
+,,CTO,
+永續 ESG,,,
+運營 Operations,,,
+項目管理 Project Management,,,
+公共關係 Public Relations,,,
+,媒體關係 Media Relations,,
+,政府關係 Government Relations,,
+,投資者關係 Investor Relations,,
+設計 Creative Design,,,
+,平面設計,,
+,建築設計,,
+,景觀設計,,
+,室內設計,,
+,結構設計,,
+,機電設計,,
+,藝術設計,,
+,網頁設計,,
+,,UI,
+,,UE,
+,,UX,
+,,視頻/音效,
+,服飾設計 Fashion & Accessories Design,,
+,內容設計 Content Design,,
+,視覺陳列 Visual Merchandise,,
+研發 Reasearch & Development,,,
+,製藥,,
+,,臨床研究 CRO,
+,,法規 Regulatory Affairs,
+,,生產 Production,
+,醫療器械,,
+,,醫療器械研發 R&D,
+,,醫療器械法規 Regulatory Affairs,
+,,醫療器械生產,
+工程/機械 Engineering & Machinery,,,
+,工程,,
+,機械,,
+,模具,,
+,工業,,
+,結構,,
+,機電,,
+,鑄造,,
+,註塑,,
+,CNC,,
+,衝壓,,
+,夾具,,
+,鍋爐,,
+生產製造 Production & Manufacturing,,,
+,工廠經理/廠長,,
+,總工程師,,
+,項目管理,,
+,工程/設備,,
+,工業工程師,,
+,工藝工程師,,
+,生產計劃/物料,,
+,化驗/檢驗,,
+,產品,,
+,製造,,
+,生產,,
+,包裝,,
+,維修,,
+,,質量/安防,
+,,,質量
+,,,測試
+,,,EHS
+,,,安防
+咨詢/教育/翻譯,,,
+,咨詢/顧問,,
+,教育,,
+,培訓,,
+,翻譯,,
+潛在顧問 PRC,,,
+其他,,,

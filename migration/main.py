@@ -1,7 +1,7 @@
 import sys
 from pipeline.db_manager import DatabaseManager
 from pipeline import clean
-from imports import step1_company_raw, step2_client, step3_talent, step4_opportunity, step5_pipeline
+from imports import step0_taxonomy, step1_company_raw, step2_client, step3_talent, step4_opportunity, step5_pipeline
 
 def main():
     clean.clear()
@@ -11,6 +11,8 @@ def main():
     manager.run()
 
     print("▶ 執行 step...")
+    
+    step0_taxonomy.run()
     # 根據 candidate & client 初始化 company raw table
     step1_company_raw.run()
     
