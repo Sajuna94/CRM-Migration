@@ -1,0 +1,4 @@
+﻿EID,姓名,公司,職位,地區,狀態,擁有者,備註,最近聯繫,最近備註者,類型,最近操作,附件,社交主頁,備註內容,年薪,工作年限,號碼,郵箱,標簽,行業,職能,意圖地區,學校,學歷,專業,添加人,添加日期,簡歷,中文名,國碼,生日,英文名,薪資結構,期望薪資,期望公司,工作性質,離職周期,地址,推薦人,分機,company_private,salary_status,reason
+EID-0019,王小明,Microsoft,資料科學家,,unknown,Michelle 高孟婕,測試備註,2026-07-17 10:30,Jackson,候選人,2026-07-10 10:30,resume.pdf,,這是備註內容,,2,983667525,,,,產品,,,master,企業管理,Victoria,2026-07-10 14:38,1018,,,1990-07-01,,,,,,,,,,False,negotiable,missing_name
+EID-0022,王小明,Tesla,資料科學家,高雄,unknown,Michelle 高孟婕,測試備註,2026-07-26 10:30,Jackson,候選人,2026-07-08 10:30,resume.pdf,,這是備註內容,,10,,michael.wang.953794738@tesla.com,,,,,國立台灣大學,master,,Randy,2026-07-08 14:38,1021,,,,,,年薪300萬,,,,,,,False,negotiable,missing_name
+EID-0030,陳志豪,Tesla,資料科學家,新竹,unknown,Ryan,測試備註,2026-07-21 10:30,Randy,聯繫人,2026-07-10 10:30,resume.pdf,,這是備註內容,,4,920672400,kevin.chen.920672400@tesla.com,,,,,國立台灣大學,,企業管理,Jackson,2026-07-10 14:38,1029,,,,,,年薪350萬,,,,,,123,False,negotiable,missing_name
