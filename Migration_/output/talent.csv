@@ -1,9 +1,0 @@
-id,created_by_id,source_id,name_english,name_chinese,email,phone_country_code,phone_number,phone_extension,cv_url,linked_urls,ps_url,company_id,company_raw_id,current_title,current_salary,status,expected_salary,expected_salary_status,sex,birth_year,birth_month,birth_day,highest_education,highest_school,highest_major,created_at,updated_at
-EID-0001,7,1,Ariel,葉家甄,ariel820216@gmail.com,886,905209656,,8999,,,,1.0,飯店工作人員,1800000.0,unknown,,,,1993,1,1,其他,中華大學,外國語文學系,,2026-06-10 14:38
-EID-0002,7,1,Judy,鐘品涵,nyjudy4732@gmail.com,886,982458298,,9087,,,,2.0,飯店或餐廳主管,2200000.0,unknown,,,,1996,1,1,其他,國立中興大學,應用經濟,,2026-06-12 11:24
-EID-0003,7,1,Annie Chen,陳維妮,annie92876@gmail.com,886,928762413,,9086,,,,3.0,國內業務,1600000.0,unknown,,,,1997,1,1,其他,義守大學,娛樂事業管理學系,,2026-06-12 11:21
-EID-0004,7,1,,游麗萱,a3869093@gmail.com,886,909489688,,9084,,,,4.0,飯店工作人員,1900000.0,unknown,,,,1998,1,1,其他,長崎國際大學(日本),國際觀光,,2026-06-12 11:17
-EID-0005,7,1,Levi Lu,呂振煒,lu0939053057@gmail.com,886,939053057,,9083,,,,5.0,飯店或餐廳主管,,unknown,,,,1999,1,1,,,,,2026-06-12 11:13
-EID-0006,7,1,Nico,王靖玟,chingwen0828@hotmail.com,886,,,9028,,,,6.0,飯店工作人員,1500000.0,unknown,,,,1992,1,1,,,,,2026-06-10 17:35
-EID-0007,5,1,,劉家興,soul52029@gmail.com,886,916525495,,9082,,,,7.0,不動產營業員,,active,,,,1995,1,1,,國立勤益科技大學,資訊工程,,2026-06-12 10:40
-EID-0008,5,1,,測試無公司,no_company@test.com,886,988888888,,,,,,,工程師,,active,,,,1990,1,1,,,,,2026-06-12 10:35
